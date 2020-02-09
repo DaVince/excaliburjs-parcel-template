@@ -4,6 +4,8 @@ An [Excalibur](https://excaliburjs.com/) template project for use with the [Parc
 
 Parcel bundles the application with zero configuration and provides a flexible development server.
 
+Uses Excalibur 0.23.0 and includes the parcel-plugin-static-files-copy plugin, which will copy everything from the `src/assets` folder into your packaged version.
+
 ## Compiling the game
 
 You will need Node.js and NPM installed.
