@@ -1,0 +1,42 @@
+{
+  "name": "fairy-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A game coded with ExcaliburJS about a fairy named Thea.",
+  "main": "src/main.ts",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "tsc --noEmit",
+    "dev": "parcel src/index.html --out-dir=dist-dev",
+    "start": "npm run dev",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.host:sarah-vincent-collab-projects/fairy-game.git"
+  },
+  "keywords": [],
+  "author": "vincentbeers@gmail.com",
+  "license": "BSD 2-Clause",
+  "dependencies": {
+    "excalibur": "^0.23.0"
+  },
+  "devDependencies": {
+    "@types/parcel-env": "0.0.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.3.1",
+    "typescript": "^3.7.5"
+  },
+  "staticFiles": {
+    "_comment": "Config for parcel-plugin-static-files-copy",
+    "staticPath": [
+      {
+        "staticPath": "src/assets",
+        "staticOutDir": "assets"
+      }
+    ],
+    "watcherGlob": "**"
+  }
+}
