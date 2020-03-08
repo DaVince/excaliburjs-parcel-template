@@ -1,8 +1,8 @@
 {
-  "name": "fairy-game",
-  "version": "1.0.0",
+  "name": "excaliburjs-template-parcel",
+  "version": "1.0.1",
   "private": true,
-  "description": "A game coded with ExcaliburJS about a fairy named Thea.",
+  "description": "A Parcel+TS template for the ExcaliburJS engine",
   "main": "src/main.ts",
   "directories": {
     "doc": "docs"
@@ -12,10 +12,6 @@
     "dev": "parcel src/index.html --out-dir=dist-dev",
     "start": "npm run dev",
     "build": "parcel build src/index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@git.host:sarah-vincent-collab-projects/fairy-game.git"
   },
   "keywords": [],
   "author": "vincentbeers@gmail.com",
